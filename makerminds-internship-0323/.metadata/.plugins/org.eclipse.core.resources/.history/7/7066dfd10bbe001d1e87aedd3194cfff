@@ -1,8 +1,0 @@
-package org.makerminds.jcoaching.restaurantpoint.model;
-
-import java.util.HashMap;
-
-public class IdAndPasswords {
-
-	HashMap<String, String> loginInfo = new HashMap<String, String>();
-}

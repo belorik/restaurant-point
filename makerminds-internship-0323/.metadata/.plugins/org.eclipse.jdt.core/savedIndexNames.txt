@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/Users/lorik/restaurant-point/makerminds-internship-0323/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-3274659380.index
-3650129161.index

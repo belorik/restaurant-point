@@ -1,0 +1,37 @@
+package org.makerminds.jcoaching.restaurantpoint.controller;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+
+public class LoginController {
+
+	public void actionPerformed(ActionEvent e) {
+
+		// if clear button is clicked, then text is cleared from the fields
+		if (e.getSource() == clearButton) {
+			userIdField.setText("");
+			userPwdField.setText("");
+		}
+		// if login button is clicked, then compare text to user data
+		if (e.getSource().equals(loginButton)) {
+			String userId = userIdField.getText();
+			String userPwd = String.valueOf(userPwdField.getPassword());
+
+			if (loginInfoData.containsKey(userId)) {
+
+				if (loginInfoData.get(userId).equals(userPwd)) {
+					messageLabel.setForeground(Color.black);
+					messageLabel.setText("Login Successful");
+				} 
+				else {
+					messageLabel.setForeground(Color.red);
+					messageLabel.setText("Password is incorrect!");
+				}
+			} 
+			else {
+				messageLabel.setForeground(Color.red);
+				messageLabel.setText("Username could not be found!");
+			}
+		}
+	}
+}

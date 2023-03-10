@@ -1,0 +1,10 @@
+package org.makerminds.jcoaching.restaurantpoint;
+
+public class RestaurantPointApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

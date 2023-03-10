@@ -1,0 +1,14 @@
+package org.makerminds.jcoaching.restaurantpoint;
+
+import org.makerminds.jcoaching.restaurantpoint.model.IdAndPasswords;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IdAndPasswords idAndPwd = new IdAndPasswords();
+		
+		LoginPage loginPage = new LoginPage();
+	}
+
+}

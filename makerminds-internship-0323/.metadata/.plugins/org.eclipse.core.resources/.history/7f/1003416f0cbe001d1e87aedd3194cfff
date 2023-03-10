@@ -1,0 +1,20 @@
+package org.makerminds.jcoaching.restaurantpoint.model;
+
+import java.util.HashMap;
+
+public class IdAndPasswords {
+	
+	// create HashMap to store login data
+	HashMap<String, String> loginInfo = new HashMap<String, String>();
+	
+	protected IdAndPasswords(){
+		loginInfo.put("Lorik", "123456");
+		loginInfo.put("User1", "123123123");
+		loginInfo.put("User2", "11112222");
+		loginInfo.put("User3", "12345678");
+	}
+
+	protected HashMap<String, String> getLoginInfo() {
+		return loginInfo;
+	}
+}
